@@ -3,6 +3,19 @@
 An Air Quality Monitoring and Forecasting System designed for **Lima City**. This project utilizes Machine Learning (Random Forest) to process data from low-cost sensors and forecast $PM_{2.5}$ levels, accounting for Lima's unique coastal micro-climates.
 
 
+## Project Structure
+
+LimaAir-Forecaster/
+│
+├── data/                # Dataset files
+├── models/              # Trained ML models
+├── src/                 # Source code
+│   ├── train_model.py
+│   ├── predict.py
+│
+├── README.md
+├── requirements.txt
+
 
 ## Features
 - **Multi-Parameter Analysis:** Processes $PM_{2.5}$, $PM_{10}$, $NO_2$, $SO_2$, $CO$, and $O_3$.
