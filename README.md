@@ -34,6 +34,13 @@ Lima's air quality is heavily influenced by the **Humboldt Current**, which crea
   - `scikit-learn` (Machine Learning)
   - `numpy` (Numerical processing)
 
+  ## Future Improvements
+
+- Add real-time sensor data integration
+- Deploy model using Flask API
+- Build a web dashboard for visualization
+- Integrate live weather APIs
+
 ## Getting Started
 
 ### Prerequisites
