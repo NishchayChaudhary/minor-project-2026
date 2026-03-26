@@ -20,7 +20,7 @@ LimaAir-Forecaster/
 ## Features
 - **Multi-Parameter Analysis:** Processes $PM_{2.5}$, $PM_{10}$, $NO_2$, $SO_2$, $CO$, and $O_3$.
 - **Meteorological Integration:** Factors in Temperature, Humidity, and Wind Speed—critical for Lima's inversion layer.
-- **AI Forecasting:** Uses a `RandomForestRegressor` to predict next-hour pollution levels.
+- **AI Forecasting:** Uses a `Linear Regression` to predict next-hour pollution levels.
 - **Manual Input Interface:** Simple CLI for testing and data validation.
 
 ## The Science
@@ -39,7 +39,7 @@ Lima's air quality is heavily influenced by the **Humboldt Current**, which crea
 - Add real-time sensor data integration
 - Deploy model using Flask API
 - Build a web dashboard for visualization
-- Integrate live weather APIs..
+- Integrate live weather APIs.
 
 ## Getting Started
 
