@@ -128,7 +128,7 @@ void setup() {
   delay(1000);
   display.clearDisplay();
 
-  printCSVHeader(); // NEW: print header before any data rows..
+  printCSVHeader(); // NEW: print header before any data rows............
 }
 
 void loop() {
